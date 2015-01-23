@@ -1,0 +1,85 @@
+#jenkins-head-icon {
+  visibility: hidden;
+}
+
+#jenkins-name-icon {
+  visibility: hidden;
+}
+
+#breadcrumbs{
+	background-color: #FFFFFF !important;
+	border-bottom: 2px solid #EB6424 !important;
+}
+#menuSelector{
+	background-color: transparent !important;
+}
+
+#breadcrumbs .item:hover, #breadcrumbs .children:hover{
+	background-color: #EB6424 !important;
+	color: #FFFFFF;
+}
+
+.model-link.inside.breadcrumbBarAnchor{
+	background-color: transparent;
+}
+.model-link.inside.breadcrumbBarAnchor:hover, .inside.breadcrumbBarAnchor:hover{
+	background-color: #EB6424;
+	color: #ffffff !important;
+}
+
+.call-to-action {
+	background-color: #EEEEEE;
+	border-left: 4px solid #EB6424;
+}
+
+#header {
+	height: 100px;
+	background: url(ci2.png) no-repeat;
+	background-position: 10px;
+}
+
+.task:hover {
+	background-color: #F0F0F0;
+}
+a, a:visited
+{
+	color: #000;
+}
+
+.pane-header{
+	background-color:  #EB6424;
+}
+
+.pane-header{
+	color: #FFFFFF;
+	font-size: 12pt;
+}
+
+#search-box{
+	background: none;
+	box-shadow: none;
+	border-radius: 0px;
+	padding-left: 5px;
+}
+
+#tasks{
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+#executors a, #executors a:visited{
+	color: #ffffff;
+}
+
+#executors a:hover{
+	color:#082F51;
+}
+body {
+	background: transparent;
+	
+}
+html{
+	background: url(blobb.png) no-repeat;
+	background-size: 50%;
+	background-position: 125% 125%;
+}
