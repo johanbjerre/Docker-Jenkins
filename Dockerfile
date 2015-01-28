@@ -24,6 +24,9 @@ ADD org.codefirst.SimpleThemeDecorator.xml /jenkins/org.codefirst.SimpleThemeDec
 ENTRYPOINT ["java", "-jar", "/opt/jenkins.war"]
 EXPOSE 8080
 
+#RUN sed -i 's/top..[0-9]*px.....height.of..header....breadcrumbBar/top: 120px; \/* height of #header + #breadcrumbBar/' /jenkins/war/css/style.css
+
 CMD [""]
 
 #RUN sed -i 's/<cssUrl>[^<]*<.cssUrl>/<cssUrl>\/userContent\/jenkinsstyle.css<\/cssUrl>/g' /jenkins/org.codefirst.SimpleThemeDecorator.xml
+#RUN sed -i 's/top..[0-9]*px.....height.of..header....breadcrumbBar/top: 120px; \/* height of #header + #breadcrumbBar/' /jenkins/war/css/style.css
